@@ -1,8 +1,8 @@
 
-# Vascular Structure Training Project
+# Vascular Structure Segmentation in Lung CT Scans
 
 ## Project Overview
-This project focuses on the development of a training pipeline using nnU-Net to accurately segment and analyze vascular structures in medical images, particularly in lung scans. The primary objective is to enhance the precision in separating vascular structures from lung tissues.
+This project focuses on developing a pipeline using nnU-Net for segmenting vascular structures from Ground Glass Opacities (GGO) and consolidation masks in lung CT scans. The primary goal is to enhance the precision of medical imaging analysis by effectively separating the vascular mask from these specific areas.
 
 ### Technologies Used
 - **Programming Language**: Python
@@ -11,7 +11,7 @@ This project focuses on the development of a training pipeline using nnU-Net to 
 - **Others**: Git, Docker
 
 ## Background
-Improving the accuracy of distinguishing vascular structures from lung tissues in medical imaging analysis is a crucial challenge. This project aims to develop a model capable of effectively segmenting vascular structures in high-resolution 3D medical images.
+The challenge in medical imaging, particularly in lung CT scans, is to accurately distinguish vascular structures from Ground Glass Opacities (GGO) and consolidation areas. This project aims to develop a model capable of effectively identifying and segmenting these structures.
 
 ## Pipeline Overview
 The Jupyter notebook includes several key stages:
@@ -28,8 +28,17 @@ The Jupyter notebook includes several key stages:
 ## Model Training and Evaluation
 Detailed information about the model training process, performance evaluation methods, and analysis of the results are covered in separate sections.
 
+## Images
+Below are examples of the image data used in the project:
+
+1. Vascular structure image file:
+   ![Vascular Structure](vessel_img.png)
+
+2. Final training dataset image with vascular mask separated:
+   ![Training Dataset Image](image.png)
+
 ## Results and Applications
-The results obtained from this pipeline play a vital role in enhancing the accuracy of lung tissue analysis and can significantly contribute to improved diagnostic accuracy in clinical settings.
+The results obtained from this pipeline are crucial for enhancing the accuracy of lung tissue analysis in CT scans. By effectively segmenting vascular structures from GGO and consolidation masks, the project contributes to improved diagnostic accuracy in clinical settings.
 
 ## Challenges and Solutions
 Focus was placed on managing the complexity of high-resolution medical image data and developing strategies for efficient use of computing resources.
