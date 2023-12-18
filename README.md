@@ -62,6 +62,15 @@ To use this script:
 3. Run the script to perform the separation.
 4. The output file `separated_mask.nii.gz` will contain the GGO and consolidation masks with the vascular structures removed.
 
+## Images
+Below are examples of the image data used in the project:
+
+1. Vascular structure image file:
+   ![Vascular Structure](vessel_img.png)
+
+2. Final training dataset image with vascular mask separated:
+   ![Training Dataset Image](image.png)
+
 ## Model Training and Evaluation
 Detailed information about the model training process, performance evaluation methods, and analysis of the results are covered in separate sections.
 
